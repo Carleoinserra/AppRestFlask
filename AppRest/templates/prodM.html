@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Titolo gioco: {{prod.name}}</h1>
+<img src = "{{prod.image}}">
+<h3>Personaggio: {{prod.character}}</h3>
+<ul>Date rilascio:
+
+
+<li> Europa:  {{prod['release']['eu']}}</li>
+    <li> America:  {{prod['release']['na']}}</li>
+     <li> Giappone:  {{prod['release']['jp']}}</li>
+
+
+
+    </ul>
+</body>
+</html>
